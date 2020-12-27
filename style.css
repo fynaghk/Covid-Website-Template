@@ -39,6 +39,7 @@ ul li ul.dropdown {
   background: #eeecec;
   display: none;
   border-radius: 7px;
+  width: fit-content;
   z-index: 999;
   position: relative;
   margin-left: -30px;
@@ -53,7 +54,7 @@ ul li:hover ul.dropdown{
 ul li ul.dropdown li {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 250px;
 }
 
 a:link{
@@ -69,14 +70,13 @@ a:link{
   background-color: rgb(241 236 249);
   border-bottom-right-radius: 50%;
 }
-/* Intro Section starts */
 
 .intro_title> h5{
   display: inline-block;
-  margin-top: 100px;
+  margin-top: 120px;
   font-size: large;
   position: absolute;
-  left: 40%;
+  left: 35%;
   transform: translateX(-50%);
   color: #b197de;
   font-weight: bold;
@@ -84,9 +84,9 @@ a:link{
 
 .intro_title> h1{
   font-size: 50px;
-  margin-top: 150px;
+  margin-top: 170px;
   position: absolute;
-  left: 40%;
+  left: 35%;
   transform: translateX(-50%);
   color: #6f42c1;
   font-weight: bold;
@@ -94,9 +94,9 @@ a:link{
 
 .intro_p{
   color: #6f42c1;
-  margin-top: 240px;
+  margin-top: 290px;
   position: absolute;
-  left: 40%;
+  left: 35%;
   transform: translateX(-50%);
 }
 
@@ -107,9 +107,10 @@ a:link{
   border-radius: 45px;
   height: 50px;
   position: absolute;
-  margin-top:300px;
-  left: 40%;
+  margin-top:350px;
+  left: 35%;
   transform: translateX(-50%);
+  outline: none;
 }
 
 .intro_btn a {
@@ -121,3 +122,426 @@ a:link{
  flex-direction: row-reverse;
  z-index: -1;
 }
+
+/* Intro Section ends */
+
+/* Statistics Section starts */
+.statistics{
+  margin-top: 100px;
+}
+
+.statistics_title> h1{
+  color: #6f42c1;
+  font-size: 35px;
+  text-align: center;
+  display: block;
+}
+
+.statistics_title> p{
+  margin-top: 20px;
+  font-size: large;
+  color: #afafaf;
+  text-align: center;
+  display: block;
+}
+
+.flex_statistics{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content:space-around;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.flex_statistics> div{
+  margin: 40px;
+  font-size:30px
+}
+
+.fa-virus{
+  color: #6f42c1;
+  display: block;
+}
+
+.statistic_p{
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  color: #afafaf;
+}
+/* Statistics Section ends */
+
+/* About Covid Section starts */
+video {
+    width: 100%;
+    height: auto;
+}
+
+.video{
+  width:600px;
+  padding: 20px;
+}
+
+.flex_about{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.about_content{
+  width: 400px;
+}
+
+.about_content>  ul{
+  display: flex;
+  flex-direction: column;
+}
+
+.about_content>  ul li{
+  margin: 10px;
+  color: #afafaf;
+  margin-left: -40px;
+  font-weight: normal;
+}
+
+.about_content> h1{
+  font-size: 40px;
+  color: #6f42c1;
+  margin-bottom: 20px;
+}
+
+.about_content> p{
+  color: #afafaf;
+}
+
+.about_content> button{
+  background-color: #6f42c1;
+  width:150px;
+  border: #6f42c1;
+  border-radius: 45px;
+  height: 50px;
+  outline: none;
+  position: absolute;
+}
+
+.flex_about_bottom{
+  display: flex;
+  margin: 40px;
+  margin-top: 90px;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.flex_about_bottom> div{
+  margin-bottom: 30px;
+}
+
+.sub-flex{
+  margin-left: 70px;
+  margin-top: -45px;
+  display: flex;
+  flex-direction: column;
+  color: #6f42c1;
+  font-size: 20px;
+}
+
+.sub-flex p{
+  color: #afafaf;
+  font-size: 17px;
+}
+
+.fa-shield-virus{
+  color: #6f42c1;
+  font-size: 50px;
+}
+
+.fa-pump-soap{
+  color: #6f42c1;
+  font-size: 50px;
+}
+
+.fa-head-side-mask{
+  color: #6f42c1;
+  font-size: 50px;
+}
+
+/* About Covid Section ends */
+
+/* Prevent  Section starts */
+
+.prevent{
+  background-color: #f8f5fc;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+    /* LEFT STARTS */
+
+.flex_prevent_one{
+  display: flex;
+  margin-top: 50px;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.flex_prevent_two{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.flexbox_one{
+  background-color: #ffffff;
+  width: 220px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  box-shadow: 10px 20px 20px grey;
+}
+
+.paragraph{
+  display: block;
+  margin: 30px;
+  margin-top: -10px;
+}
+
+.prev_img> img{
+  width: 220px;
+  margin-bottom: 30px;
+}
+
+.paragraph h2{
+  color: #6f42c1;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.paragraph p{
+  color: #afafaf;
+}
+
+
+   /* LEFT ENDS */
+
+   /* RIGHT STARTS */
+
+.flex_prevent_right{
+    width: 500px;
+    padding: 20px;
+    margin-top: 30px;
+    height: fit-content;
+    margin-bottom: 100px;
+  }
+
+.flex_prevent_right> h1{
+  font-size: 40px;
+  color: #6f42c1;
+  display: block;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+
+.paragraph_one{
+  margin-bottom: 30px;
+  color: #afafaf;
+}
+
+.paragraph_two{
+  color: #afafaf;
+}
+
+.flex_prevent_right>  ul{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex_prevent_right>  ul li{
+  margin: 10px;
+  color: #afafaf;
+  margin-left: -40px;
+  font-weight: normal;
+}
+
+.prevent_button{
+  background-color: #6f42c1;
+  width: 300px;
+  border: #6f42c1;
+  border-radius: 45px;
+  height: 50px;
+  outline: none;
+  position: absolute;
+}
+
+.prevent_button a{
+  color: white;
+}
+   /* RIGHT END */
+
+/* Prevent  Section ends */
+
+/* Protect Yourself Section starts */
+.protect_title> h1{
+  color: #6f42c1;
+  font-size: 35px;
+  text-align: center;
+  display: block;
+}
+
+.protect_title> p{
+  margin-top: 20px;
+  font-size: large;
+  color: #818181;
+  text-align: center;
+  display: block;
+}
+
+.flex_protect h3{
+  margin-top: 30px;
+  font-size: 20px;
+  margin-left: 60px;
+}
+
+.flex_protect{
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flex_do ul{
+  display: flex;
+  width: 200px;
+  font-weight: normal;
+  flex-direction: column;
+}
+
+.flex_do ul li{
+  font-weight: normal;
+  margin-top: 30px;
+}
+
+.flex_dont ul{
+  display: flex;
+  width: 200px;
+  font-weight: normal;
+  flex-direction: column;
+}
+
+.flex_dont ul li{
+  font-weight: normal;
+  margin-top: 30px;
+}
+
+/* Protect Yourself Section ends */
+
+/* Symptoms Section starts */
+
+.symptoms{
+  background-color: #f8f5fc;
+}
+
+.flex_symp_one{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.sub_flexbox{
+  display: flex;
+  justify-content: flex-start;
+  width: 560px;
+  height: 130px;
+  margin-left: 50px;
+  background-color: #ffffff;
+  width: 550px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 10px 20px 20px grey;
+
+}
+
+.sub_flexbox img{
+  width: 100px;
+  padding: 0;
+}
+
+.symptoms h1{
+  color: #6f42c1;
+  font-size: 35px;
+  margin-top: 30px;
+  padding: 30px;
+  text-align: center;
+  display: block;
+}
+
+.symp_p{
+  font-size: large;
+  color: #afafaf;
+  text-align: center;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.sub_flexbox h3{
+  font-weight: normal;
+  margin: 18px;
+  margin-left:0;
+  color: #6f42c1;
+}
+
+.sub_flexbox p{
+    font-size: 15px;
+    color: #afafaf;
+}
+
+   /* HELP SECTION STARTS */
+
+.help_flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.help{
+  margin: 30px;
+  padding: 50px;
+  color: #afafaf;
+}
+
+.help strong{
+  color: #6f42c1;
+}
+
+.help_btn{
+  background-color: #6f42c1;
+  width: 200px;
+  height: 50px;
+  border: #6f42c1;
+  border-radius: 45px;
+  outline: none;
+  margin: 50px;
+}
+
+.help_btn a{
+  color: white;
+}
+
+   /* HELP SECTION ENDS */
+
+/* Symptoms Section ends */
+
+/* Article Section starts */
+
+/* Article Section ends */

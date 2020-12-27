@@ -120,6 +120,7 @@ a:link{
 .intro_img{
  display: flex;
  flex-direction: row-reverse;
+ justify-content: space-around;
  z-index: -1;
 }
 
@@ -198,6 +199,7 @@ video {
 .about_content>  ul{
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 .about_content>  ul li{
@@ -244,6 +246,7 @@ video {
   margin-left: 70px;
   margin-top: -45px;
   display: flex;
+  justify-content: space-around;
   flex-direction: column;
   color: #6f42c1;
   font-size: 20px;
@@ -289,14 +292,14 @@ video {
   display: flex;
   margin-top: 50px;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
 .flex_prevent_two{
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin-bottom: 50px;
 }
@@ -409,7 +412,7 @@ video {
 .flex_protect h3{
   margin-top: 30px;
   font-size: 20px;
-  margin-left: 60px;
+  margin-left: 30px;
 }
 
 .flex_protect{
@@ -422,26 +425,34 @@ video {
 
 .flex_do ul{
   display: flex;
-  width: 200px;
+  width: 220px;
   font-weight: normal;
   flex-direction: column;
+  margin-left: -20px
 }
 
 .flex_do ul li{
   font-weight: normal;
   margin-top: 30px;
+  padding-left: 20px;
 }
 
 .flex_dont ul{
   display: flex;
-  width: 200px;
+  width: 220px;
   font-weight: normal;
   flex-direction: column;
+  margin-left: -20px
 }
 
 .flex_dont ul li{
   font-weight: normal;
   margin-top: 30px;
+  padding-left: 20px;
+}
+
+.protect_image{
+  margin-top: 50px;
 }
 
 /* Protect Yourself Section ends */

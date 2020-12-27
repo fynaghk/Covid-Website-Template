@@ -531,7 +531,7 @@ video {
   border: #6f42c1;
   border-radius: 45px;
   outline: none;
-  margin: 50px;
+  margin: 60px;
 }
 
 .help_btn a{
@@ -544,4 +544,112 @@ video {
 
 /* Article Section starts */
 
+.article_h1{
+  color: #6f42c1;
+  font-size: 35px;
+  text-align: center;
+  display: block;
+  margin: 40px;
+}
+
+.article_p{
+  font-size: large;
+  color: #afafaf;
+  text-align: center;
+  display: block;
+}
+
+.flex_article{
+  display: flex;
+  padding: 40px;
+  margin: 10px;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.flex_article> div{
+  margin: 20px;
+}
+
+.flex_article img{
+  width: 300px;
+  margin: 20px;
+}
+
+.sub_art p{
+  display: inline;
+  margin-left: 24px;
+  padding: 15px;
+  font-size: 15px;
+}
+
+.btn_article button{
+  background-color: #6f42c1;
+  width: 100px;
+  height: 30px;
+  border: #6f42c1;
+  position: absolute;
+  margin-left: 120px;
+  margin-top: -50px;
+  outline: none;
+}
+
+.sub_art h2{
+  font-size: 20px;
+  margin-left: 23px;
+  margin-top: 10px;
+}
+
+.btn_article a{
+  color: white;
+}
+
 /* Article Section ends */
+
+/* Footer Section starts  */
+
+.footer{
+  margin-top: 100px;
+}
+
+.footer_h3{
+  margin-bottom: 47px;
+  margin-left: 40px
+}
+
+.flex_footer{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex_footer> div{
+  width: 300px;
+  margin-left: 20px;
+}
+
+.flex_ul ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.flex_ul ul li{
+  padding-bottom:7px;
+  margin-left: 0px;
+}
+
+.parent_flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 30px;
+}
+
+.icons{
+  margin-left: -60px
+}
+
+/* Footer Section ends  */
